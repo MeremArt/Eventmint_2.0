@@ -1,0 +1,44 @@
+.mainx {
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  outline: none;
+  text-align: center;
+}
+.transitionsItem {
+  overflow: hidden;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 3em;
+  font-weight: 800;
+  text-transform: uppercase;
+  will-change: transform, opacity, height;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: 80px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-color: #1b1b1b;
+}
+/* 
+  .blg {
+    background-color: "#5a74ef";
+    background-image: url("../../assets/reflection.png");
+    background-size: contain;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+  } */
+.comming-div {
+  background-color: #5a74ef;
+}
